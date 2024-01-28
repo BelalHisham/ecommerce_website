@@ -11,7 +11,7 @@ const {showCart, setShowCart, totalQuantities} = useStateContext();
   return (
     <div className='navbar-container'>
     <p className='logo'>
-      <Link href= '/'> Belal's Store</Link>
+      <Link href= '/'> Belsoft's Store</Link>
     </p>
 
     <button type='button' className='cart-icon' onClick= {() => setShowCart(true)}>
